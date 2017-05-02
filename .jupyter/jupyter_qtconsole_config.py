@@ -116,7 +116,7 @@
 # JupyterQtConsoleApp configuration
 #------------------------------------------------------------------------------
 
-color_theme = 'monokai'  # specify color theme
+color_theme = 'blackboard'  # specify color theme
 
 import pkg_resources
 

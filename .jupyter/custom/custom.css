@@ -1,14 +1,24 @@
-.dataframe * {border-color: #c0c0c0 !important;}
-.dataframe th{background: #eee;}
-.dataframe td{
-    background: #fff;
-    text-align: right; 
-    min-width:5em;
-}
+//.rendered_html .dataframe {
+//border: 1px;
+//}
 
-/* Format summary rows */
-.dataframe-summary-row tr:last-child,
-.dataframe-summary-col td:last-child{
-    background: #eee;
-    font-weight: 500;
-}
+//.rendered_html .dataframe thead {
+//    border: 2px solid #000000;
+//    background-color: #222222;
+//    color: #FFFFFF;
+//}
+
+//.dataframe tbody td {
+//    background: #fff;
+//    text-align: right; 
+//    min-width:5em;
+//    border: 1px solid  #000000 !important;
+//}
+
+//.dataframe tbody th {
+//    background: #fff;
+//    text-align: right; 
+//    min-width:5em;
+//    border: 1px solid  #000000 !important;
+//}
+
