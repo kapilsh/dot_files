@@ -116,3 +116,5 @@ let g:cellmode_tmux_panenumber='0'
 noremap <silent> <C-a> :call RunTmuxPythonAllCellsAbove()<CR>
 
 set autoread
+
+set clipboard+=unnamedplus
