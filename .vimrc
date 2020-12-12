@@ -13,7 +13,6 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'dracula/vim'
 Plugin 'lsdr/monokai'
 Plugin 'tmhedberg/SimpylFold'
-#Bundle 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
 Bundle 'jnurmine/Zenburn'
@@ -84,7 +83,7 @@ map <C-q>  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
     \ "Staged"    : "✚",
     \ "Untracked" : "✭",
